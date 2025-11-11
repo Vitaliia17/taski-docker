@@ -17,6 +17,11 @@ ALLOWED_HOSTS = [
     'taskibest.duckdns.org'
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://taskibest.duckdns.org',
+    'http://taskibest.duckdns.org'
+]
+
 # Application definition
 
 INSTALLED_APPS = [
